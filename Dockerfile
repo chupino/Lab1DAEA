@@ -1,4 +1,4 @@
-from mcr.microsoft.com/dotnet/SDK:8.0 as SDK
+from mcr.microsoft.com/dotnet/sdk:8.0 as SDK
 workdir /app
 run dotnet new console -n MenuDotnet -o App
 copy ./Program.cs /app/App
